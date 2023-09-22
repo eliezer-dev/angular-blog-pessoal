@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import {dataFake} from '../../data/dataFake'
+import {data} from '../../data/data'
 
 @Component({
   selector: 'app-content',
@@ -26,7 +26,7 @@ export class ContentComponent implements OnInit {
   }
 
   setValuesToComponent(id:string | null){
-    const result = dataFake.filter(article => article.id == id)[0]
+    const result = data.filter(article => article.id == id)[0]
 
     this.contentTitle = result.title
     this.contentDescription = result.description
