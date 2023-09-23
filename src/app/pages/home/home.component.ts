@@ -15,7 +15,5 @@ export class HomeComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    //this.projects = data.filter(project => project.standard === false)
-    //console.log(this.projects)
 }
 }
