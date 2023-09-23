@@ -37,7 +37,7 @@ export const data = [
     "standard": false,
     "linkGitHub": "https://github.com/eliezer-dev/angular-blog-pessoal.git",
     "smallDescription": "Projeto para desenvolvimento de um software para criação de loja virtual Open Source",
-    "description": "Projeto de software para criação de loja virtual Open Source, alternativo ao Shopify, todavia, onpromisse ",
+    "description": "Projeto de software para criação de loja virtual Open Source, alternativo ao Shopify, todavia, on-promisse. ",
     "photoCover": "https://www.zbw-mediatalk.eu/wp-content/uploads/2015/09/github-cover.jpg"
   },
 
